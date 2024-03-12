@@ -1,0 +1,174 @@
+.mian {
+    background-color: #d4d4d4;
+    width: 100%;
+    height: max-content;
+    padding: 100px 0 50px 0;
+}
+
+.buycontainer {
+    background-color: #EBF0F4;
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.buycarousel {
+    height: 60vh;
+
+    object-fit: cover;
+}
+
+#carouselExampleCrossfade {
+    width: 60%;
+    display: inline-block
+}
+
+.formcont {
+    width: 38%;
+    background-color: #ccdbdc;
+    position: absolute;
+    display: inline-block;
+    margin-right: 2%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px
+}
+
+.inputbox {
+    width: 100%;
+
+
+    position: relative;
+}
+
+.inputbox i {
+    position: absolute;
+    /* right: 20px; */
+    top: 50%;
+    transform: translate(50%, -50%);
+    font-size: 20px;
+    color: #ACACAC;
+}
+
+.inputbox input {
+
+
+    height: 30px;
+    outline: none;
+    border-bottom: 2px solid rgb(191, 191, 203);
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0px 20px 0px 45px;
+}
+
+.inputbox input::placeholder {
+    color: rgb(196, 192, 192);
+}
+
+fieldset label {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(46, 114, 115);
+}
+
+fieldset legend {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(20, 85, 86);
+}
+
+.tge {
+    color: rgb(196, 192, 192) !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+    background-color: white;
+}
+
+.ReactFlagsSelect-module_selectValue__152eS {
+    color: rgb(196, 192, 192) !important;
+}
+
+.writting {
+    width: 60%;
+    color: #122F8D;
+    padding: 20px 10px 20px 40px
+}
+
+.back {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+
+.sticker {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 1s ease-in-out;
+    z-index: 999;
+}
+
+.weather {
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.weather .card-header {
+    background-color: transparent;
+    border: 1px solid rgb(196, 192, 192);
+    border-left: none;
+    border-right: none;
+}
+
+.weather .card {
+    background-color: transparent;
+    border: none;
+}
+
+.weather .card-body {
+    background-color: transparent;
+    border: none;
+}
+
+.accordiontext {
+    color: #122F8D !important;
+
+}
+
+@media screen and (max-width:767px) {
+    .buycarousel {
+        height: 40vh;
+    }
+
+    .buycontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formcont {
+        display: block;
+        position: static;
+        width: 80%;
+        margin-right: 0%;
+    }
+
+    #carouselExampleCrossfade {
+        width: 80%;
+        display: block
+    }
+
+    .writting {
+        width: 80%;
+        color: #122F8D;
+        padding-left: 0px
+    }
+}

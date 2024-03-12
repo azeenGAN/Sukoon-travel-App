@@ -1,0 +1,215 @@
+.ofooter {
+    /* margin-top: 25px; */
+    height: max-content;
+    width: 100%;
+    background: rgb(63, 50, 71);
+    background: -moz-linear-gradient(11deg, rgba(63, 50, 71, 1) 0%, rgba(99, 59, 59, 1) 54%, rgba(180, 140, 83, 1) 100%);
+    background: -webkit-linear-gradient(11deg, rgba(63, 50, 71, 1) 0%, rgba(99, 59, 59, 1) 54%, rgba(180, 140, 83, 1) 100%);
+    background: linear-gradient(11deg, rgba(63, 50, 71, 1) 0%, rgba(99, 59, 59, 1) 54%, rgba(180, 140, 83, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f3247", endColorstr="#b48c53", GradientType=1);
+}
+
+.uofooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    background: rgb(206, 215, 45, 0.17);
+    background: -moz-linear-gradient(90deg, rgba(206, 215, 45, 0.1) 0%, rgba(204, 55, 21, 0.1) 75%);
+    background: -webkit-linear-gradient(90deg, rgba(206, 215, 45, 0.1) 0%, rgba(204, 55, 21, 0.1) 75%);
+    background: linear-gradient(90deg, rgba(206, 215, 45, 0.1) 0%, rgba(204, 55, 21, 0.1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ced72d", endColorstr="#cc3715", GradientType=1);
+    height: max-content;
+
+    /* opacity: 0.17; */
+}
+
+.uofooter .imgpart {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uofooter .imgpart img {
+
+    border-radius: 50%;
+    padding: 10px;
+    height: 80px;
+
+
+}
+
+.uofooter .imgpart p {
+    margin: 0%;
+    font-size: 26px;
+    color: rgb(213, 213, 213);
+    font-weight: 700;
+}
+
+.uofooter .quote {
+    color: whitesmoke;
+    font-weight: 500;
+    color: rgb(213, 213, 213);
+    font-style: italic;
+}
+
+.lofooter {
+    padding-top: 25px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    /* gap:6% */
+}
+
+.lofooter .firstportion p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2px;
+}
+
+
+.lofooter p {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.lofooter .firstportion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.lofooter .firstportion p b {
+    text-decoration: none;
+    margin-left: 3px;
+    color: white;
+}
+
+.lofooter .firstportion p a {
+    text-decoration: none;
+
+}
+
+.lofooter .firstportion p a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.lofooter .firstportion p a i {
+    color: silver;
+}
+
+#officelocname {
+    color: silver;
+    font-size: 16px;
+}
+
+.lofooter .oursecondlocation {
+    padding-top: 39px;
+
+}
+
+.lofooter .oursecondlocation a {
+    text-decoration: none;
+    color: white;
+}
+
+.addedcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.officenmbrs a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.officenmbrs a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.lofooter .oursecondlocation a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footerline {
+    height: 1px;
+    width: 90%;
+
+    background-color: white;
+    margin: 5px auto;
+}
+
+.footerline~div {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: grid;
+    place-items: center;
+    padding-bottom: 7px;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .uofooter {
+
+        display: none;
+    }
+
+    .lofooter {
+
+        /* align-items: center; */
+        flex-direction: column;
+
+    }
+
+    .lofooter .firstportion {
+
+        flex-direction: row;
+
+        justify-content: center;
+    }
+
+    .connect {
+        margin-right: 15px;
+    }
+
+    .lofooter .firstportion p b {
+        display: none;
+    }
+
+    .lofooter .firstportion p {
+        margin-right: 20px;
+    }
+
+    .lofooter .oursecondlocation {
+        display: none;
+    }
+
+    .uofooter .imgpart p {
+        display: none
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .lofooter {
+        gap: 6%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .addedcontent {
+        flex-direction: column;
+    }
+}

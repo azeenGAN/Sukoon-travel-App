@@ -1,0 +1,139 @@
+.main2 {
+    background-color: #d4d4d4;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+
+}
+
+.upperpart2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.upperpart2left {
+    width: 40%;
+}
+
+.num {
+    width: 50%;
+    display: inline-block;
+}
+
+.upperpart2right {
+    width: 60%;
+    height: 70vh;
+    clip-path: polygon(100% 10%, 90% 8%, 84% 5%, 79% 8%, 71% 9%, 64% 7%, 57% 4%, 52% 5%, 44% 7%, 38% 7%, 34% 4%, 29% 6%,
+            24% 8%, 16% 5%, 10% 8%, 8% 14%, 7% 21%, 12% 24%, 13% 30%, 8% 35%, 5% 42%, 10% 46%, 9% 53%, 3% 62%, 5% 68%, 9% 72%, 9% 79%,
+            7% 85%, 10% 90%, 11% 97%, 17% 97%, 24% 96%, 30% 94%, 37% 95%,
+            44% 98%, 50% 97%, 54% 94%, 57% 91%, 63% 93%, 70% 96%, 81% 96%,
+            92% 94%, 87% 93%, 100% 96%);
+    background-image: url('../images/mainpageimg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.userreviewprt {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.urpleft {
+    width: 40%;
+}
+
+.urpcard {
+    height: max-content;
+    width: 90%;
+    padding-top: 20px;
+
+}
+
+.urpcardupper {
+    background-color: #696969;
+    border-radius: 18px;
+    /* height:220px; */
+    padding: 15px;
+    color: azure;
+
+}
+
+.reviewnameprt {
+    padding-top: 15px;
+
+}
+
+.urpbuttons {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.btn-left {
+    padding: 15px;
+    font-size: 30px;
+    color: #cd864c !important;
+    display: none;
+    cursor: pointer;
+}
+
+.btn-right {
+    padding: 15px;
+    font-size: 30px;
+    color: #cd864c !important;
+    cursor: pointer;
+}
+
+.urpright {
+    width: 60%;
+}
+
+.urpright img {
+    mix-blend-mode: darken;
+    width: 100%;
+
+}
+
+.slideshow {
+    margin-top: 60px;
+    background-color: #EBEBEB;
+    border-radius: 30px;
+    border: 7px solid #bab9b9;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.card1 {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .upperpart2 {
+        flex-direction: column;
+    }
+
+    .upperpart2left {
+        width: 100%;
+    }
+
+    .upperpart2right {
+        width: 100%;
+    }
+
+    .userreviewprt {
+        flex-direction: column;
+    }
+
+    .urpleft {
+        width: 85%;
+    }
+
+    .urpright {
+        width: 100%;
+    }
+}

@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+.maindiv {
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 40px;
+    gap: 30px;
+}
+
+.leftcont {
+    width: 30%;
+    height: max-content;
+
+}
+
+.leftcont ul {
+    list-style-type: none;
+    border-radius: 5px;
+    border: 0.8px solid rgb(212, 212, 212);
+    padding-left: 0px;
+
+}
+
+.leftcont ul li {
+    height: max-content;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(36, 100, 172);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+
+}
+
+.coloeheaderparent {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+.colorheader {
+    width: 100%;
+    height: 20%;
+    background-color: #282A36;
+    font-size: 130px;
+    color: white;
+}
+
+.leftcont ul li:hover {
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    color: rgb(0, 115, 247);
+    background-color: rgb(212, 212, 212);
+}
+
+.leftcont ul li div:active {
+    cursor: pointer;
+
+    color: rgb(0, 115, 247);
+    background-color: rgb(212, 212, 212);
+}
+
+.leftcont ul li div:focus {
+    cursor: pointer;
+    /* transform: scale(1.05); */
+    color: rgb(0, 115, 247);
+    background-color: rgb(212, 212, 212);
+}
+
+.leftcont ul li div:hover {
+    transform: scale(0.9);
+}
+
+.desc {
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.desc h1 {
+    font-size: 38px;
+    font-weight: 200;
+    color: rgb(36, 100, 172);
+}
+
+.rightcont {
+    width: 70%;
+    padding-right: 25px;
+    margin-bottom: 30px;
+}
+
+.aboutdesc,
+.officesworldwidedesc,
+.leadership,
+.Discountoffers,
+.PrivacyandCookieStatement,
+.Careeropportunities {
+    display: none;
+}
+
+.desc h2 {
+    font-size: 34px;
+    font-weight: 200;
+    color: rgb(36, 100, 172);
+
+}
+
+table {
+
+    /* border-spacing: 0;  */
+
+    width: 90%;
+    /* border-collapse: separate; */
+    box-sizing: border-box;
+    border: hidden;
+    box-shadow: 0 0 0 2px;
+    border-radius: 10px;
+
+}
+
+th,
+td {
+    border: 1px solid;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+/* tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+} */
+td {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+th {
+    font-size: 14px;
+}
+
+tr td:last-child {
+    font-size: 12px;
+}
+
+.gradient {
+
+    font-size: 32px;
+    font-weight: 700;
+    background: linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    animation: gradient1 2s ease-out 1;
+}
+
+@keyframes gradient1 {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 200%;
+    }
+}
+
+.gradient2 {
+    margin-top: 15px;
+    font-weight: 700;
+    background: linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient3 {
+    margin-top: 15px;
+    font-weight: 700;
+    background: linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 50% 400%;
+}
+
+.gradient4 {
+
+    background: linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -moz-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+
+    background: -webkit-linear-gradient(180deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 56%, 42%, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gradient2~p {
+    margin-bottom: 2px;
+}
+
+.imgpartdisc {
+    width: 96%;
+    background-image: url('../images/discimg.jpg');
+    background-repeat: no-repeat;
+    /* min-height: max-content; */
+    background-size: cover;
+    /* background-position: left; */
+    border-radius: 12px;
+
+
+    color: white;
+    padding: 20px;
+}
+
+.imgpartdisc p {
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:840px) {
+
+    th,
+    td {
+        font-size: 12px;
+    }
+
+}
+
+@media print {
+
+    @page {
+        margin: 35px;
+    }
+
+
+}

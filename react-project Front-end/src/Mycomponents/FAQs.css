@@ -1,0 +1,80 @@
+/* .e-accordion {
+    border: 5px solid rgb(196, 192, 192) ;
+    border-radius: 5px;
+    background-color:     #EBF0F4;
+}
+.e-accordion .e-acrdn-item.e-select.e-active>.e-acrdn-header .e-acrdn-header-content,
+.e-accordion .e-acrdn-item.e-select.e-item-focus>.e-acrdn-header .e-acrdn-header-content {
+    color: #2fa1ff !important;
+}
+.e-accordion .e-acrdn-item .e-acrdn-header .e-acrdn-header-content {
+    font-size: 14px; 
+} */
+.faqmain code {
+    color: black;
+    font-weight: 500;
+
+}
+
+.custom-accordion-title {
+    color: rgb(100, 99, 99);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.accordian,
+.custom-accordion {
+    width: 60%;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.card-header {
+    background-color: #e8e8e8;
+}
+
+.card-body {
+    background-color: #e8e8e8;
+}
+
+.nycimg {
+
+    width: 40%;
+    margin-top: 30px
+}
+
+.pdfdownload {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .midpart {
+        flex-direction: column-reverse;
+    }
+
+    .nycimg {
+        width: 90%;
+    }
+
+    .accordian,
+    .custom-accordion {
+        width: 90%;
+
+    }
+
+    .control-pane {
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    .custom-accordion-title,
+    .card-body {
+        font-size: 12px;
+    }
+}
