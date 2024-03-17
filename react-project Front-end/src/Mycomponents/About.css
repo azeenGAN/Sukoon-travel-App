@@ -150,6 +150,9 @@ tr td:last-child {
     font-size: 12px;
 }
 
+
+
+
 .gradient {
 
     font-size: 32px;
@@ -238,7 +241,9 @@ tr td:last-child {
     font-weight: 400;
 }
 
-
+.coledu{
+    display:table-cell;
+}
 @media screen and (max-width:840px) {
 
     th,
@@ -247,6 +252,16 @@ tr td:last-child {
     }
 
 }
+@media screen and (max-width:767px) {
+
+    tr th:nth-last-child(2) {
+        display: none;
+    }
+    tr td:nth-last-child(2) {
+        display: none;
+    }
+}
+
 
 @media print {
 

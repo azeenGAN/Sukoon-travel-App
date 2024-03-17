@@ -44,7 +44,7 @@ export default function Pres() {
           muted
           controls
           onError={handleVideoError}
-          src="http://localhost:5000/Travel-video.mp4"
+          src="/Travel-video.mp4"
         ></video>  )}
             <p style={{ margin: "10px", color: "#ffaedc", fontFamily: "impact" }} className="fragment fade-up">Fill the form and receive mail from us!!</p>
           </section>

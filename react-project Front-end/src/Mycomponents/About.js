@@ -13,6 +13,7 @@ export default function About(props) {
 
   const ref01 = useRef('')
   const ref02 = useRef()
+ 
   
   function www() {
     ff = document.createElement('div');
@@ -27,7 +28,7 @@ export default function About(props) {
 
   async function fetchData() {
     try {
-      const response = await fetch('http://localhost:5000/leadership');
+      const response = await fetch('/leadership');
 
       tri = Object.values(await response.json());
       const handsome = tri.map((item, index) => (
@@ -55,14 +56,17 @@ export default function About(props) {
 
     const setInitialScale = () => {
       const viewportMeta = document.querySelector('meta[name="viewport"]');
+      
       if (window.innerWidth < 767) {
         // Set initial scale to 0.7 for devices with width <= 767px
-        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=0.6');
+        viewportMeta.setAttribute('content', 'width=device-width, initial-scale=0.6'); 
       } else {
         // Set original scale for other devices
         viewportMeta.setAttribute('content', 'width=device-width, initial-scale=1');
-      }
+        }
     };
+
+   
 
     setInitialScale(); // Set initial scale on component mount
 

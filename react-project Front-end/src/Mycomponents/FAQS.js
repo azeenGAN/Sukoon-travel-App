@@ -6,7 +6,7 @@ const Default = (props) => {
 
 
     function traveldownload() {
-        window.open('http://localhost:5000/Running-Late.pdf');
+        window.open('/Running-Late.pdf');
     }
 
 

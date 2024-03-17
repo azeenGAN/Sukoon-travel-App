@@ -114,11 +114,30 @@ fieldset legend {
     transition: 1s ease-in-out;
     z-index: 999;
 }
-
+/* .captcha {
+    text-align: left;
+    float: left;
+    width: 90%!important;
+}
+.captcha >div{
+text-align: left;
+float: left;
+}
+.captcha >div>div>div > div{
+    transform: scale(0.8);
+    text-align: left!important;
+    float: left;
+}
+.captcha iframe{
+   
+    text-align: left;
+    float: left;
+} */
 .weather {
     margin-top: 15px;
     margin-left: -15px;
     width: 100%;
+ 
 }
 
 .weather .card-header {
