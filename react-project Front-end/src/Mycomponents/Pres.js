@@ -35,7 +35,7 @@ export default function Pres() {
         <section>
           <section ><p >sukoon makes no guarantees for prices advertised on our site and application.</p><a href="#reveal">
             <img className="r-frame " src={process.env.PUBLIC_URL + '/android-chrome-512x512.png'} style={{ borderRadius: "50px" }} width="250" alt='sukoon' />
-          </a><p><a href="https://www.siteminder.com/r/hotel-fees/">Guide to hotel fees and surcharges for hotels</a></p></section>
+          </a><p><a style={{textDecoration:"underline"}} href="https://www.siteminder.com/r/hotel-fees/">Guide to hotel fees and surcharges for hotels</a></p></section>
 
           <section ><h2 style={{ color: "#34E0A1" }}>Book with us</h2>
           {!videoError && (
